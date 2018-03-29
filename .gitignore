@@ -44,3 +44,8 @@ playground.xcworkspace
 ios/Podfile.lock/
 ./node_modules/
 ./node_modules
+/node_modules
+ios/Podfile.lock
+ios/NYCSchools.xcworkspace/
+.idea/
+./.idea/
