@@ -11,12 +11,6 @@ export default class HeaderExample extends Component {
         return (
             <Container>
                 <Content padder>
-                    <Title>
-                    </Title>
-                    <Text>
-                        This is Content Section
-                    </Text>
-
                     <Button light onPress={
                         buttonClick.bind(this)
                     }
@@ -26,27 +20,23 @@ export default class HeaderExample extends Component {
                         <Text>Press Me!</Text>
                     </Button>
                     <List>
-                        <ListItem itemHeader first>
-                            <Text>COMEDY</Text>
+                        <ListItem itemDivider>
+                            <Text>A</Text>
                         </ListItem>
                         <ListItem >
-                            <MovieNameComponent movieName="Thor" imageURL={"http://nintendoenthusiast.com/wp-content/uploads/2018/01/Fortnite.jpg"}/>
+                            <Text>Aaron Bennet</Text>
                         </ListItem>
                         <ListItem>
-                            <Text>Horrible Bosses</Text>
+                            <Text>Ali Connors</Text>
                         </ListItem>
-                        <ListItem last>
-                            <Text>Conjuring</Text>
-                        </ListItem>
-                        <ListItem itemHeader>
-                            <Text>ACTION</Text>
+                        <ListItem itemDivider>
+                            <Text>B</Text>
                         </ListItem>
                         <ListItem>
-                            <Text>Terminator Genesis</Text>
+                            <Text>Bradley Horowitz</Text>
                         </ListItem>
                     </List>
                 </Content>
-                <Footer />
             </Container>
         );
     }
